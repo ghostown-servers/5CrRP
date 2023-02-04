@@ -11,9 +11,9 @@
     "html-webpack-plugin": "^4.0.0",
     "ts-loader": "^6.2.1",
     "typescript": "^3.8.3",
-    "vue": "^2.6.11",
+    "vue": "^2.7.14",
     "vue-loader": "^15.9.0",
-    "vue-template-compiler": "^2.6.11",
+    "vue-template-compiler": "^2.7.14",
     "webpack": "4"
   },
   "devDependencies": {
