@@ -6,7 +6,7 @@
   "dependencies": {
     "@types/vue": "^2.0.0",
     "copy-webpack-plugin": "^6.0.0",
-    "css-loader": "^3.4.2",
+    "css-loader": "^3.6.0",
     "html-webpack-inline-source-plugin": "^0.0.10",
     "html-webpack-plugin": "^5.5.0",
     "ts-loader": "^6.2.1",
