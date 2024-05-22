@@ -590,6 +590,13 @@ braces@^2.3.1, braces@^2.3.2:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
+braces@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/braces/-/braces-3.0.3.tgz#490332f40919452272d55a8480adc0c441358789"
+  integrity sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==
+  dependencies:
+    fill-range "^7.1.1"
+
 braces@~3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/braces/-/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
@@ -1397,6 +1404,13 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
+fill-range@^7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/fill-range/-/fill-range-7.1.1.tgz#44265d3cac07e3ea7dc247516380643754a05292"
+  integrity sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==
+  dependencies:
+    to-regex-range "^5.0.1"
+
 find-cache-dir@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/find-cache-dir/-/find-cache-dir-2.1.0.tgz#8d0f94cd13fe43c6c7c261a0d86115ca918c05f7"
@@ -2182,6 +2196,14 @@ micromatch@^3.1.10, micromatch@^3.1.4, micromatch@^3.1.8:
     snapdragon "^0.8.1"
     to-regex "^3.0.2"
 
+micromatch@^4.0.0:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.7.tgz#33e8190d9fe474a9895525f5618eee136d46c2e5"
+  integrity sha512-LPP/3KorzCwBxfeUuZmaR6bG2kdeHSbe0P2tY3FLRU4vYrjYz5hI4QZwV0njUx3jeuKe67YukQ1LSPZBKDqO/Q==
+  dependencies:
+    braces "^3.0.3"
+    picomatch "^2.3.1"
+
 miller-rabin@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/miller-rabin/-/miller-rabin-4.0.1.tgz#f080351c865b0dc562a8462966daa53543c78a4d"
@@ -2573,6 +2595,11 @@ picomatch@^2.0.4, picomatch@^2.2.1:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.2.2.tgz#21f333e9b6b8eaff02468f5146ea406d345f4dad"
   integrity sha512-q0M/9eZHzmr0AulXyPwNfZjtwZ/RBZlbN3K3CErVrk50T2ASYI7Bye0EvekFY3IP1Nt2DHu0re+V2ZHIpMkuWg==
 
+picomatch@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
+  integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
+
 pify@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/pify/-/pify-4.0.1.tgz#4b2cd25c50d598735c50292224fd8c6df41e3231"
@@ -2865,10 +2892,15 @@ schema-utils@^1.0.0:
     ajv-errors "^1.0.0"
     ajv-keywords "^3.1.0"
 
-semver@^5.0.1, semver@^5.6.0:
+semver@^5.6.0:
   version "5.7.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
   integrity sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
+
+semver@^6.0.0:
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
+  integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
 serialize-javascript@^4.0.0:
   version "4.0.0"
@@ -3187,16 +3219,16 @@ toidentifier@1.0.0:
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
   integrity sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
 
-ts-loader@^5.3.3:
-  version "5.4.5"
-  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-5.4.5.tgz#a0c1f034b017a9344cef0961bfd97cc192492b8b"
-  integrity sha512-XYsjfnRQCBum9AMRZpk2rTYSVpdZBpZK+kDh0TeT3kxmQNBDVIeUjdPjY5RZry4eIAb8XHc4gYSUiUWPYvzSRw==
+ts-loader@^6.0.0:
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-6.2.2.tgz#dffa3879b01a1a1e0a4b85e2b8421dc0dfff1c58"
+  integrity sha512-HDo5kXZCBml3EUPcc7RlZOV/JGlLHwppTLEHb3SHnr5V7NXD4klMEkrhJe5wgRbaWsSXi+Y1SIBN/K9B6zWGWQ==
   dependencies:
     chalk "^2.3.0"
     enhanced-resolve "^4.0.0"
     loader-utils "^1.0.2"
-    micromatch "^3.1.4"
-    semver "^5.0.1"
+    micromatch "^4.0.0"
+    semver "^6.0.0"
 
 tslib@^1.9.0:
   version "1.14.1"
